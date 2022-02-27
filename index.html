@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <div class="choos">
+        <a href="#" class="active" data-obj="student">Student</a>
+        <a href="#" data-obj="employee">Employee</a>
+    </div>
+    <div class="container">
+        <div class="content">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <h2 id="titelForm">Student Form</h2>
+        <div class="forms">
+        <div class="form student">
+            <form action="studentPage.html">
+                <div class="inputBx">
+                    <i class="fas fa-user"></i>
+                    <input type="email" placeholder="Email or phone number">
+                </div>
+                <div class="inputBx">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <!-- <a href="result.html" class="btn">Login</a> -->
+                <input class="btn" type="submit" value="Login">
+            </form>
+            <a href="#" class="forgot">Forgot your password?</a>
+        </div>
+        <div class="form employee">
+            <form action="studentPage.html">
+                <div class="inputBx">
+                    <i class="fas fa-user"></i>
+                    <input type="email" placeholder="Email or phone number">
+                </div>
+                <div class="inputBx">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <!-- <a href="result.html" class="btn">Login</a> -->
+                <input class="btn" type="submit" value="Login">
+            </form>
+            <a href="#" class="forgot">Forgot your password?</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
